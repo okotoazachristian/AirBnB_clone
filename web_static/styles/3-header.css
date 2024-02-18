@@ -1,0 +1,12 @@
+div{
+	background:url("../Image/logo.png");
+	height:70px;
+	width:70px;
+	background-size:cover;
+}
+header{
+	height:70px;
+	width:100%;
+	color: white;
+	border-bottom: 1px solid #CCCCCC;
+}
