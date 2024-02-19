@@ -1,5 +1,5 @@
-div{
-	background:url("../Image/logo.png");
+.icon{
+	background:url("../images/logo.png");
 	height:70px;
 	width:70px;
 	background-size:cover;
