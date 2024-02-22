@@ -1,22 +1,29 @@
+.article_container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    width:100%;
+}
 .places article{
     width:390px;
     padding: 20px;
-    margin:0px 20px;
+    margin:10px 20px;
     border:1px solid #FF5A5F;
     border-radius:4px;
     display:inline-block;
     position:relative;
+    height:294px;
 }
 article span{
     margin:0px auto;
     width:100px;
 }
-.places h2{
+p{
+    width:100%;
     font-size:30px;
-    width:390px;
-    border:1px solid #FF5A5F;
-    margin:15px auto;
-    text-align:center
+    font-weight:bold;
+    margin:0px;
+    text-align:center;
 }
 .price_by_night{
     color: #FF5A5F;
@@ -77,6 +84,6 @@ article span{
     margin:5px 0px;
 }
 .description{
-    height:80px;
+    height:0px;
     margin:10px 0px;
 }
